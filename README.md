@@ -32,7 +32,7 @@ RasberryPiにUbuntuをインストール.授業の内容通り、2ずつカウ�
 `$ rostopic echo /twice`  
 
 ## 注意事項  
-・既にパッケージを作成し、ディレクトリが存在する場合はcount.pyとtwice.pyを含むscriptsは、パッケージを作成した際に作ったディレクトリの直下に置く必要があります.  
+・既にパッケージを作成し、ディレクトリが存在する場合はcount.pyとtwice.pyを含むscripts、package.xmlはパッケージを作成した際に作ったディレクトリの直下に置く必要があります.  
   
 ・`$ rosrun` でノードの実行をする際は実行のパーミッション設定をする必要があります.  
  `$ chmod +x count.py`  
