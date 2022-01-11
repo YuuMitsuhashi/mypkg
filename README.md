@@ -6,6 +6,15 @@
 ## 実行した動画  
 
 ## インストール方法  
+1. catkin_ws と src 2つのディレクトリを作成  
+`$ cd ~/catkin_ws/src`  
+
+2. クローン  
+`$ git clone https://github.com/YuuMitsuhashi/mypkg1/git`  
+
+3. catkin_ws ディレクトリに戻り catkin_make を実行  
+`$ cd ..`  
+`$ catkin_make`  
 
 ## 実行方法  
 以下のコマンドをUbuntuの端末画面に入力  
@@ -13,11 +22,11 @@
 1. 端末1つ目でroscoreを起動  
 `$ roscore`  
 
- 2. 端末2つ目でscripts内のcount.pyを走らせる  
+2. 端末2つ目でscripts内のcount.pyを走らせる  
 `$ rosrun mypkg1 count.py`  
 
- 3. 端末3つ目でscripts内のtwice.pyを走らせる  
+3. 端末3つ目でscripts内のtwice.pyを走らせる  
 `$ rosrun mypkg1 twice.py`
 
- 4. 端末4つ目で動作の確認をする  
+4. 端末4つ目で動作の確認をする  
 `$ rostopic echo /twice`
