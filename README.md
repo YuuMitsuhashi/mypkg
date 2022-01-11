@@ -29,4 +29,13 @@
 `$ rosrun mypkg1 twice.py`
 
 4. 端末4つ目で動作の確認をする  
-`$ rostopic echo /twice`
+`$ rostopic echo /twice`  
+
+## 注意事項  
+・既にパッケージを作成し、ディレクトリが存在する場合はcount.pyとtwice.pyを含むscriptsは、パッケージを作成した際に作ったディレクトリの直下に置く必要があります.  
+・`$ rosrun` でノードの実行をする際は実行のパーミッション設定をする必要があります.  
+`$ chmod +x count.py`  
+`$ chmod +x twice.py`  
+
+## ライセンス  
+BSD 3-ClausevLicense
