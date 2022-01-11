@@ -11,7 +11,7 @@ https://www.youtube.com/watch?v=xNabQXsrK8Y
 `$ cd ~/catkin_ws/src`  
 
 2. クローン  
-`$ git clone https://github.com/YuuMitsuhashi/mypkg1/git`  
+`$ git clone https://github.com/YuuMitsuhashi/mypkg1git`  
 
 3. catkin_ws ディレクトリに戻り catkin_make を実行  
 `$ cd ..`  
