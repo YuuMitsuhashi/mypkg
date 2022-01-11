@@ -4,6 +4,7 @@
 RasberryPiにUbuntuをインストール.授業の内容通り、2ずつカウントアップし、1秒ごとに10増加するプログラムを作成した.  
 
 ## 実行した動画  
+https://www.youtube.com/watch?v=xNabQXsrK8Y
 
 ## インストール方法  
 1. catkin_ws と src 2つのディレクトリを作成  
@@ -39,4 +40,5 @@ RasberryPiにUbuntuをインストール.授業の内容通り、2ずつカウ�
  `$ chmod +x twice.py`  
 
 ## ライセンス  
-BSD 3-Clause License
+BSD 3-Clause License  
+https://www.freebsd.org/ja/
