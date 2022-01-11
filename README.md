@@ -10,13 +10,13 @@
 以下のコマンドをUbuntuの端末画面に入力  
 最低でも4つの端末画面が必要.  
 ・端末1つ目でroscoreを起動  
-$ roscore  
+`$ roscore`  
 
 ・端末2つ目でscripts内のcount.pyを走らせる  
-$ rosrun mypkg1 count.py  
+`$ rosrun mypkg1 count.py`  
 
 ・端末3つ目でscripts内のtwice.pyを走らせる  
-$ rosrun mypkg1 twice.py
+`$ rosrun mypkg1 twice.py`
 
 ・端末4つ目で動作の確認をする  
-$ rostopic echo /twice
+`$ rostopic echo /twice`
